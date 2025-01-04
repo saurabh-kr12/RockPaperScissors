@@ -1,0 +1,61 @@
+*{
+   margin: 0;
+   padding: 0;
+}
+header{
+   background-color: rgba(29, 21, 40, 0.893);
+   color: white;
+   text-align: center;
+   padding: 0.4rem;
+   height: 3rem;
+   box-sizing: border-box;
+   font-size: larger;
+}
+.choices{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 2rem;
+   margin: 2rem;
+}
+img{
+   height: 200px;
+   width: 200px;
+   object-fit: cover;
+   border-radius: 50%;
+   cursor: pointer;
+}
+.scores{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 2rem;
+}
+.score{
+   border: 1px solid black;
+   height: 150px;
+   width: 150px;
+   text-align: center;
+   background-color: rgb(31, 31, 96);
+   color: white;
+   border-radius: 10px;
+   font-size: 5rem;
+   margin-bottom: 3rem;
+}
+.name{
+   font-size: 2rem;
+}
+.mess-container{
+   text-align: center;
+   margin: auto;
+   background-color: rgb(163, 142, 142);
+   width: 50vw;
+   font-size: 3rem;
+   border-radius: 8px;
+}
+.choice.clicked{
+   background-color: rgba(142, 68, 47, 0.893);
+   height: 210px;
+   width: 210px;
+   border-radius: 50%;  
+}
